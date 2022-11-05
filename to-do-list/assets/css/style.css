@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.to-do-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid darkblue;
+    background: #fff959;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.to-do-list button {
+    background: blue;
+    color: white;
+    padding: 5px 15px;
+    border: 1.5px solid #000;
+    border-radius: 10px;
+}
+
+.to-do-list button:hover{
+    background: #fff999;
+    color: #000;
+}
+
+.to-do-item-2{
+    display: flex;
+    justify-content: center;
+}
+
+#tasks {
+    margin: 15px;
+    flex-direction: column;
+}
+
+.task-item{
+    padding-left: 52px;
+}
+
+#task-input{
+    height: 25px;
+    border-radius: 5px;
+}
+
+#task-input:hover{
+    background: #fff999;
+}
+
+#title{
+    text-align: center;
+    margin: 10px;
+}
