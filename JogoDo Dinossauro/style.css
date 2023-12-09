@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    margin: 100px 100px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+#player{
+    width: 20px;
+    height: 50px;
+    background-color: #0e1cd4;
+    position: relative;
+    top: 150px;
+}
+
+.animation {
+    animation: player 500ms infinite;
+    
+}
+
+@keyframes player {
+    0% {top: 150px}
+    30% {top: 100px}
+    70% {top: 100px}
+    100% {top: 150px}
+}
+
+#squad {
+    width: 20px;
+    height: 20px;
+    background: #d31818;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: squad 1s infinite linear;
+}
+
+@keyframes squad {
+    0% {left: 480px}
+    100% {left: -48px}
+}
